@@ -21,3 +21,31 @@
     margin-bottom: 0;
   }
   
+  * Ensure the container has a proper display to handle the images */
+.responsive-images-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px; /* Adjust the gap between images */
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* Make the images responsive */
+.responsive-images-container img {
+    width: 100%;
+    max-width: 500px; /* Adjust this max-width as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional: to add rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: to add a shadow effect */
+   margin: 10px;
+   /* margin-top: 20px; */
+    margin-bottom: 20px; /* Add bottom margin between the images */
+  }
+
+/* Media query for larger screens to display images side by side */
+@media (min-width: 768px) {
+    .responsive-images-container img {
+        width: calc(50% - 20px); /* Two images per row, adjust if needed */
+    }
+}

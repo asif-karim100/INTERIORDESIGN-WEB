@@ -52,7 +52,7 @@ const Home = () => {
   return (
     <>
       <div className="home-container">
-        <h1>Elavating Interior Design With ICarve Creations</h1>
+        <h1 class="slide-right-to-left">Elavating Interior Design With ICarve Creations</h1>
         <br />
         <h2>An Empty Room Is a Story Waiting To Happen, And You Are The Author</h2>
         <br />

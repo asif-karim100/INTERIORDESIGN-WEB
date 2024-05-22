@@ -12,7 +12,7 @@ const Footer = () => {
           {/* Add more countries as needed */}
         </select>
         <p>© 2024 ICrave</p>
-        <button type='button'>Download Our App</button>
+        <button id="but">Download Our App</button>
       </div>
 
       <div className="footer-section">

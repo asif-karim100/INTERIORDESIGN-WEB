@@ -277,3 +277,16 @@
       margin: 10px 0;
     }
   }
+
+  .slide-right-to-left {
+    animation: slideRightToLeft 5s infinite alternate;
+}
+
+@keyframes slideRightToLeft {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}

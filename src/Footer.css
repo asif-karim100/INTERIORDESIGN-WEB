@@ -77,7 +77,8 @@
     }
   }
   
-  button{
-    background-color: rgb(242, 242, 122);
+  #but{
+    background-color: rgb(203, 188, 188);
+    height: 50px;
     border-radius: 20px;
   }

@@ -3,6 +3,7 @@ import './About.css';
 
 const About = () => {
   return (
+    <>
     <div className="about-container">
       <h1>About ICrave Creations</h1>
       <p>
@@ -14,7 +15,18 @@ const About = () => {
       <p>
         Join us on a journey of creativity and excellence, and let us elevate your interior design experience with ICrave Creations.
       </p>
+   <div class="responsive-images-container">
+    <img src='https://static.asianpaints.com/content/dam/asianpaintsbeautifulhomes/our-work/a-cosy-home-in-mumbai/m2.jpg'></img>
+   
+   <img src='https://static.asianpaints.com/content/dam/asianpaintsbeautifulhomes/our-work/a-cosy-home-in-mumbai/m1.jpg'></img>
+   <img src='https://static.asianpaints.com/content/dam/asianpaintsbeautifulhomes/our-work/a-cosy-home-in-mumbai/m2.jpg'></img>
+   <img src='https://static.asianpaints.com/content/dam/asianpaintsbeautifulhomes/our-work/a-cosy-home-in-mumbai/m1.jpg'></img>
+
+   </div>
+
     </div>
+    </>
+
   );
 };
 
